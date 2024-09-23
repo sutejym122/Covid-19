@@ -1,0 +1,21 @@
+.container {
+  margin: 8vh 0;
+}
+
+.card {
+  margin: 0 2% !important;
+  background-color: var(--grey) !important;
+}
+
+.infected {
+  border-bottom: 1.5vh ridge rgba(0, 0, 255);
+  border-top: 1.5vh ridge rgba(0, 0, 255);
+}
+.recovered {
+  border-bottom: 1.5vh ridge rgba(0, 255, 0);
+  border-top: 1.5vh ridge rgba(0, 255, 0);
+}
+.deaths {
+  border-bottom: 1.5vh ridge rgba(255, 0, 0);
+  border-top: 1.5vh ridge rgba(255, 0, 0);
+}
